@@ -5,7 +5,7 @@ Docker compose file and build to use self-hosted runner
 
 To start the runner
 ```
-docker-compose -p local up -d --build
+docker-compose -p local up -d --build --scale gh-runner=2
 ```
 
 # Problems
