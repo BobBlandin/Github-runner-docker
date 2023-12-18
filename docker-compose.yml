@@ -2,7 +2,6 @@ version: "3.8"
 
 services:
     gh-runner:
-        container_name: gh-runner
         restart: always
         image: bobcorp-github-runner:latest
         build:
